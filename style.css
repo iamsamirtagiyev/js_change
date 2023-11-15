@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(./camaro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease;
+    background-attachment: fixed;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+
+.example-text {
+    width: 350px;
+    height: 150px;
+    border: dashed 2px #fff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.example-text span {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.box{
+    background: #e3e3e3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    border-radius: 8px;
+    width: 500px;
+}
+.box span{
+    font-size: 18px;
+    font-weight: 500;
+}
+.box .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.box .buttons i{
+    font-size: 30px;
+    cursor: pointer;
+    background: #b3b2b2;
+    border-radius: 8px;
+}
